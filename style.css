@@ -14,12 +14,12 @@ body {
 
   .fixed-column {
     overflow: hidden;
-    padding: 20px;
+    padding-top: 8px;
     background-color: #344e41;
     color: white;
   }
   .fixed-column h2{
-    font-size: 28px;
+    font-size: 25px;
     font-feature-settings: "ss03","cv02","cv11";
     font-family: sans-serif;
     font-weight: 700;
@@ -49,11 +49,12 @@ body {
     font-size: 15px;
   }
   .fixed-column img{
-    border-radius: 100%;
+    border-radius: 50%;
     width: 150px;
     height: 150px;
-    margin: 20px;
-    margin-left: 55px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
   }
   /* navigation styles */
   .nav-content {
@@ -267,9 +268,6 @@ button {
   border-radius: 10px !important;
   cursor: pointer;
 }
-button:hover {
-  background-color: #4f772d;
-}
 /* end of contact styles */
   .scrollable-column {
     overflow-y: auto;
@@ -289,7 +287,6 @@ button:hover {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin-left: 130px;
   }
   .fixed-column h2{
     font-size: 18px;
@@ -365,8 +362,8 @@ button:hover {
   }
   .nav-content{
     margin-top: 10px;
-    padding-left: 2px;
-    font-size: 20px;
+    padding-left: 42px;
+    font-size: 18px;
   }
   #about p{
     padding: 20px;
