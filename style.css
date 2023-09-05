@@ -332,7 +332,12 @@ button:hover {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    margin-left: 157px;
+    margin-top: 0px;
+  }
+  .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .fixed-column h2{
     font-size: 35px;
